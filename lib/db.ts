@@ -1,7 +1,7 @@
 import { prisma } from './prisma'
 
 export interface Todo {
-  id: string__
+  id: string
   title: string
 }
 
