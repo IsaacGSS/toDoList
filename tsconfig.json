@@ -24,7 +24,7 @@
   },
   "include": [
     "src",
-    "creat.ts"
+    "src/creat.ts"
   ],
   "references": [
     {
