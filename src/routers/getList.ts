@@ -7,7 +7,6 @@ export async function getList(app: FastifyInstance) {
     const idUser = z.object({
       id: z.string().cuid()
     })
-
     const { id } = idUser.parse(request.params)
 
     return await prisma.user.findMany({
